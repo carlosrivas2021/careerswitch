@@ -1,0 +1,21 @@
+{
+  "name": "careerswitch",
+  "version": "1.0.0",
+  "description": "Challenge Career Switch",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "EMAIL=yo@mail.com node_modules/.bin/mocha test/**/*test.js"
+  },
+  "author": "Carlos Rivas",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.6"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "nock": "^13.2.7"
+  }
+}
