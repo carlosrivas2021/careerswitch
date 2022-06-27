@@ -6,8 +6,8 @@ npm install
 
 ### Before running code
 
-cp .env.example .env
-Add a email to check
+- cp .env.example .env
+- Add a email to check
 
 ### Run code
 npm run start
